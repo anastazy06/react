@@ -8,7 +8,7 @@ function App() {
     return (
         <div className='App'>
             <button onClick={() => setOpen(true)} className='open-modal-btn'>
-                Відкрити вікно
+                Натисни, щоб відкрити вікно
             </button>
             <Modal open={open} setOpen={setOpen} />
         </div>
